@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "name": "tony-agentino",
+  "builds": [
+    { "src": "index.html", "use": "@now/static" }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "/index.html" }
+  ]
+}
