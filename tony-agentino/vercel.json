@@ -1,8 +1,5 @@
 {
-  "buildCommand": "echo 'No build needed'",
+  "buildCommand": "echo skip",
   "outputDirectory": ".",
-  "framework": null,
-  "routes": [
-    { "src": "/(.*)", "dest": "/index.html" }
-  ]
+  "public": true
 }
